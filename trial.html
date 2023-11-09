@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="../asset/css/style-slick.css">
+
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Beranda</title>
+</head>
+<body>
+    <section class="menu-bar fixed-top">
+        <!-- Nav Awal -->
+        <nav class="navbar bg-blue navbar-expand-lg p-2 h-50">
+            <div class="container">
+                <h1><a class="navbar-brand text-three fw-normal fs-3" href="#">SanggarPeni </a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex  ms-auto my-4 my-lg-0 m-0" role="search">
+                        <div class="input-group mb-0">
+                            <input type="search" class="form-control" placeholder="Cari apa ?" aria-label="Search" aria-describedby="button-addon2" style="width:20vw;">
+                            <button class="btn btn-brown btn-outline-secondary m-0" type="submit" id="button-addon2"><i class="fa fa-search text-white" aria-hidden="true"></i></button>
+                        </div>
+                    </form>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between align-items-center">
+                        <li class="nav-item dropdown" >
+                            <a class="nav-link active dropdown-toggle text-three" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="fa fa-list-ul" aria-hidden="true"></i> Kategori</a>
+                            <ul class="dropdown-menu text-white" id="dropdown-width "  style="font-size: 14px; width: 250px;"> 
+                                <li class="mb-1"><a class="text-decoration-none text-four px-3" href="#">Perlengkapan Rumah</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-four px-3" href="#">Makanan & Minuman</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-four px-3" href="#">Hobi & Koleksi</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-four px-3" href="#">Souvenir & Pesta</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-four px-3" href="#">Aksesoris Fashion</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-four px-3" href="#">Perawatan & Kecantikan</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-four px-3" href="#">Mainan Anak</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-three" href="#"> <i class="fa fa-cart-plus" aria-hidden="true"></i> Keranjang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-three" href="#"> <i class="fa fa-bell-o" aria-hidden="true"></i> Notifikasi</a>
+                        </li>     
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-three " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../asset/img/wepik-photo-mode-202276-162011.png" class="img-thumbnail shadow rounded-circle p-0 m-0" id="image-height" alt=""> Yudha M</a>
+                            <ul class="dropdown-menu text-white" style="font-size: 14px; width: 200px;"> 
+                                <li>
+                                    <div class="row px-3 text-two">
+                                        <div class="col-md-4">
+                                            <img src="../asset/img/wepik-photo-mode-202276-162011.png" class="img-thumbnail shadow rounded-circle p-0 m-0" style="height: 40px;" alt="">
+                                        </div>
+                                        <div class="col-md-8 text-left" >
+                                            <p class="p-0 mb-0 text-one fw-semibold p-0 m-0" style="font-size: 13px;">Yudha M</p>
+                                            <a class="text-decoration-none text-two p-0" style="font-size:10px;" href="biodata.html">Lihat Profil <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
+                                        </div>
+                                    </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <li class="mb-1"><a class="text-decoration-none text-two px-3" href="#">Riwayat Belanja</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-two px-3" href="#">Wishlist</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-two px-3" href="#">Kebijakan Privasi</a></li>
+                                <li class="mb-1"><a class="text-decoration-none text-two px-3" href="#">Syarat & Ketentuan</a></li>
+                                <li class="mb-1"><hr class="dropdown-divider"></li>
+                                <li><a class="text-decoration-none text-two px-3 text-left" href="#">Keluar <i class="fa-solid fa-arrow-right-from-bracket"></i></a></li> 
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Nav Akhir -->
+    </section>
+
+    <!-- Content -->
+    <section class="banner-part mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 order-1 order-lg-0 order-xl-0">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-12 mb-1">
+                            <div class="home-grid-promo">
+                                <a href="#"><img src="../asset/img/banner1.png" alt="promo"></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-12">
+                            <div class="home-grid-promo">
+                                <a href="#"><img src="../asset/img/banner2.png" alt="promo"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 order-0 order-lg-1 order-xl-1">
+                    <div class="home-grid-slider slider-arrow slider-dots">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active rounded-circle indicators-btn" aria-current="true" aria-label="Slide 1" style="height: 15px; width: 15px;"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" class="rounded-circle indicators-btn" style="height: 15px; width: 15px;"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" class="rounded-circle indicators-btn" style="height: 15px; width: 15px;"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="../asset/img/slider.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="../asset/img/banner big.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../asset/img/slider.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="button-slider carousel-control-prev my-auto rounded-circle ms-3" id="slider" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span  aria-hidden="true"><i class="fa fa-arrow-left fw-bolder" aria-hidden="true"></i></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="button-slider carousel-control-next my-auto rounded-circle me-3" id="slider" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span aria-hidden="true"><i class="fa fa-arrow-right fw-bolder" aria-hidden="true"></i></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mb-3">
+            <div class="d-flex justify-content-between align-items-center p-0">
+                <h3 class="text-one fw-bolder text-one me-3 p-0" style="font-size: 1.2rem;">Kategori Produk</h3>
+                <a class="nav-link text-five fw-semibold" href="#" style="font-size: .8rem;">Lihat Detail</a>
+            </div>
+            <div class="category-slider mt-0">
+                <div class="row text-center row-bagr slider">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-sirup.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Alat Rumah</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-tablet.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Makan & Minum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-tetes.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Hobi & Koleksi</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-salep.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Souvenir & Pesta</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-larutan.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Aksesoris Fashion</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-produk.php" id="category-link" style="text-decoration: none;"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Mainan Anak</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-sirup.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Alat Rumah</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-tablet.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Makan & Minum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-tetes.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Hobi & Koleksi</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-salep.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Souvenir & Pesta</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-larutan.php" id="category-link"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;"></a>
+                            <p class="mt-2 text-four fw-bold">Aksesoris Fashion</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 slider-items">
+                        <div class="menu-kategori" id="category-text">
+                            <a href="produk-kategori-produk.php" id="category-link" style="text-decoration: none;"><img src="../asset/img/category.jpg" alt="" class="w-100 mt-3" style="border-radius: 8px;">
+                            <p class="mt-2 text-four fw-bold">Mainan Anak</p></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="next_btn">
+                    <button class="rounded-circle">
+                        <span aria-hidden="true" class="button-slider"><i class="fa fa-arrow-right fw-bolder" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+                <div class="prev_btn">
+                    <button class="rounded-circle">
+                        <span aria-hidden="true" class="button-slider"><i class="fa fa-arrow-left fw-bolder" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container mb-4">
+            <div class="d-flex justify-content-between align-items-center p-0">
+                <h3 class="text-one fw-bolder text-one me-3 p-0" style="font-size: 1.2rem;">Produk Terlaris !</h3>
+                <a class="nav-link text-five fw-semibold" href="#" style="font-size: .8rem;">Lihat Semua</a>
+            </div>
+            <div class="category-slider mt-0">
+                <div class="row text-center row-bagr best-seller p-2">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/gelas kayu jati.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="makan-minum.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Gelas Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 25.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 122</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 102</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/sendok.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Sendok Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 15.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 220</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/talenan_kayu.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Telenan Ayuta Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 59.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 77</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/dakon.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="mainan-anak.html" class=" card-info text-decoration-none text-three">Mainan Anak</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Dakon/Congklak Lipat Biru</span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 105.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 55</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/gelas kayu jati.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="makan-minum.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Gelas Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 25.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 122</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 102</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/sendok.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Sendok Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 15.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 220</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/talenan_kayu.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Telenan Ayuta Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 59.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 77</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/dakon.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="mainan-anak.html" class=" card-info text-decoration-none text-three">Mainan Anak</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Dakon/Congklak Lipat Biru</span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 105.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 55</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="next_btn-best">
+                    <button class="rounded-circle">
+                        <span aria-hidden="true" class="button-slider"><i class="fa fa-arrow-right fw-bolder" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+                <div class="prev_btn-best">
+                    <button class="rounded-circle">
+                        <span aria-hidden="true" class="button-slider"><i class="fa fa-arrow-left fw-bolder" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mb-3">
+            <div class="d-flex justify-content-between align-items-center p-0">
+                <h3 class="text-one fw-bolder text-one me-3 p-0" style="font-size: 1.2rem;">Produk Unggulan Kami !</h3>
+                <a class="nav-link text-five fw-semibold" href="#" style="font-size: .8rem;">Lihat Semua</a>
+            </div>
+            <div class="category-slider mt-0">
+                <div class="row text-center row-bagr popular p-2">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/gelas kayu jati.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="makan-minum.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Gelas Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 25.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 122</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 102</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/sendok.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Sendok Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 15.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 220</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/talenan_kayu.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Telenan Ayuta Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 59.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 77</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/dakon.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="mainan-anak.html" class=" card-info text-decoration-none text-three">Mainan Anak</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Dakon/Congklak Lipat Biru</span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 105.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 55</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/gelas kayu jati.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="makan-minum.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Gelas Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 25.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 122</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 102</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mx-1" id="produk-col">
+                        <div class="card card-product text-center shadow-sm">
+                            <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                                <img src="../asset/img/sendok.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-start">
+                                    <div class="category-text bg-brown ps-1">
+                                        <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                    </div>
+                                    <div id="more-char">
+                                        <span class="fw-semibold text-one">Sendok Kayu Jati </span>
+                                    </div>
+                                    <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 15.000</p>
+                                    <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 220</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="next_btn-popular">
+                    <button class="rounded-circle">
+                        <span aria-hidden="true" class="button-slider"><i class="fa fa-arrow-right fw-bolder" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+                <div class="prev_btn-popular">
+                    <button class="rounded-circle">
+                        <span aria-hidden="true" class="button-slider"><i class="fa fa-arrow-left fw-bolder" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mb-4">
+            <h3 class="text-one fw-bolder text-one me-3" style="font-size: 1.2rem;">Produk Terbaru Untuk Anda</h3>
+            <div class="row text-center row-bag">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000,00</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 22</p>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000,00</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 22</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000,00</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 22</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000,00</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 22</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000,00</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 22</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000,00</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 22</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/gelas kayu jati.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Gelas Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 25.000,00</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 22</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="hampers kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/hampers sata.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Hampres Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 65.000</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 102</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="gelas kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/gelas kayu jati.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="makan-minum.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Gelas Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 25.000</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 122</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="sendok kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/sendok.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Makan & Minum</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Sendok Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 15.000</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 220</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="sendok kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/talenan_kayu.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="alat-rumah.html" class=" card-info text-decoration-none text-three">Alat Rumah</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Telnan Ayuta Kayu Jati </span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 59.000</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 77</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 moreBox" id="produk-col" style="display: none;">
+                    <div class="card card-product text-center shadow-sm">
+                        <a href="sendok kayu jati.html" class="text-decoration-none text-one">
+                            <img src="../asset/img/dakon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-start">
+                                <div class="category-text bg-brown ps-1">
+                                    <a href="mainan-anak.html" class=" card-info text-decoration-none text-three">Mainan Anak</a></p>
+                                </div>
+                                <div id="more-char">
+                                    <span class="fw-semibold text-one">Dakon/Congklak Lipat Biru</span>
+                                </div>
+                                <p class="fw-bold my-2 text-one" style="font-size: 1rem;">Rp. 105.000</p>
+                                <p class="card-info text-two m-0" style="font-size: .7rem;"><i class='bx bxs-star text-warning'></i> 5.0 | Terjual 55</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="my-3" id="loadMore">
+                    <a href="#" class="btn btn-hover w-50 btn-sm"> <i class="fa fa-eye me-2" aria-hidden="true"></i> Lihat Lebih Banyak</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End -->
+
+    <!-- Footer -->
+    <footer class="bg-blue text-light pt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="card border-0 bg-dark">
+                        <div class="card-body bg-blue text-justify" style="text-align: justify;"> 
+                            <h5 class="card-text fw-bold">SanggarPeni</h5>
+                            <p class="card-text">Sanggar Peni merupakan produsen kerajinan batik kayu. Memproduksi aneka macam kerajinan, seperti aksesoris, home decor hingga perabotan rumah tangga. Sanggar Peni telah berdiri sejak tahun 1989</p>
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="col-md-4">
+                    <div class="card border-0 bg-dark">
+                        <div class="card-body bg-blue text-left">
+                            <h5 class="card-text fw-bold"><a name="kontak">Kontak Kami</a></h5>
+                            <div class="d-flex justify-content-start mb-2">
+                                <div class="">
+                                    <i class="fas fa-envelope me-3"></i>
+                                </div>
+                                <div class="">
+                                    <p class="card-text">sanggarpeni@yahoo.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start mb-2">
+                                <div class="">
+                                    <i class="fas fa-phone me-3"></i>
+                                </div>
+                                <div class="">
+                                    <p class="card-text">+6285743779847</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start mb-2">
+                                <div class="">
+                                    <i class="fa-solid fa-location-dot me-3"></i>
+                                </div>
+                                <div class="">
+                                    <p class="card-text">Krebet RT 05, Krebet, Sendangsari, Kec. Pajangan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55751</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+                <div class="col-md-4">
+                    <div class="card border-0 bg-dark">
+                        <div class="card-body bg-blue text-left">
+                            <h5 class="card-text fw-bold">Akses Menu</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="card-text"><a href="$" class="text-decoration-none text-light">Beranda</a></p>
+                                    <p class="card-text"><a href="#" class="text-decoration-none text-light">Kategori</a></p>
+                                    <p class="card-text"><a href="#" class="text-decoration-none text-light">Keranjang</a></p>
+                                    <p class="card-text"><a href="#" class="text-decoration-none text-light">Notifikasi</a></p>
+                                    <p class="card-text mb-3"><a href="#" class="text-decoration-none text-light">Profil</a></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="card-text"><a href="$" class="text-decoration-none text-light">Wishlist</a></p>
+                                    <p class="card-text"><a href="#" class="text-decoration-none text-light">Riwayat Belanja</a></p>
+                                    <p class="card-text"><a href="#" class="text-decoration-none text-light">Syarat & Ketentuan</a></p>
+                                    <p class="card-text"><a href="#" class="text-decoration-none text-light">Kebijakan Privasi</a></p>
+                                    <p class="card-text"><a href="#" class="text-decoration-none text-light">Tentang</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>      
+            </div>
+
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="card border-0 bg-dark">
+                        <div class="card-body bg-blue text-justify" style="text-align: justify;"> 
+                            <h5 class="card-text fw-bold">Download Aplikasi</h5>
+                            <p class="card-text">Selain dapat diakses melalui website, Sanggarpeni juga dapat diakses menggunakan aplikasi mobile. Yuk download aplikasi SanggarPeni !</p>
+                            <div class="d-flex justify-content-start">
+                                <div class="me-3">
+                                    <a href="#" class="text-decoration-none"><img src="../asset/img/Google_Play-Badge-Logo 1.png" style="width: 8vw;" alt=""></a>
+                                </div>
+                                <div class="">
+                                    <a href="#" class="text-decoration-none"><img src="../asset/img/App_Store_(iOS)-Badge-Logo 1.png" style="width: 8vw;" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+                <div class="col-md-8">
+                    <div class="card border-0 bg-dark">
+                        <div class="card-body bg-blue text-justify" style="text-align: justify;"> 
+                            <h5 class="card-text fw-bold">Mitra SanggarPeni</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+        <div class="py-1 mt-4 text-center justify-content-center bg-brown">
+            <span class="ps-1">&copy;All Copyrights SanggarPeni</span>
+        </div>
+    </footer>
+    <!---End -->
+    
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        
+        <!--Load More-->
+        <script>
+            $( document ).ready(function () {
+                    $(".moreBox").slice(0, 10).show();
+                    if ($(".blogBox:hidden").length != 0) {
+                        $("#loadMore").show();
+                    }		
+                    $("#loadMore").on('click', function (e) {
+                        e.preventDefault();
+                        $(".moreBox:hidden").slice(0, 5).slideDown();
+                        if ($(".moreBox:hidden").length == 0) {
+                            $("#loadMore").fadeOut('slow');
+                        }
+                    });
+                });
+        </script>
+
+    <!-- Slick JS CDN-->    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- End -->
+    
+    <!-- Script for Slick-->
+    <script type="text/javascript" >
+        $('.slider').slick({
+            slidesToShow: 8,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            prevArrow: '.prev_btn',
+            nextArrow:'.next_btn',
+            responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 5,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 4,
+                slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+                }
+            }
+        ]});
+    </script>
+
+<script type="text/javascript" >
+    $('.best-seller').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        prevArrow: '.prev_btn-best',
+        nextArrow:'.next_btn-best',
+        responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+            }
+        }
+    ]});
+</script>
+    
+    <script type="text/javascript" >
+        $('.popular').slick({
+            slidesToShow: 6,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            prevArrow: '.prev_btn-popular',
+            nextArrow:'.next_btn-popular',
+            responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+                }
+            }
+        ]});
+    </script>
+    <!-- End -->
+
+    <!-- Script Bootstrap + Icon -->
+        <script src="https://kit.fontawesome.com/bb4f77fb43.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <!-- End -->
+</body>
+</html>
